@@ -1,0 +1,8 @@
+
+{
+  "name": "Aura: Your Confidential AI Companion",
+  "description": "Aura is a web-based, AI-powered companion designed for Indian youth. It's a confidential space that uses multi-modal technology to provide empathetic, personalized mental wellness support, featuring live emotion detection and voice interaction.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
