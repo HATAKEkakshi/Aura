@@ -2,19 +2,73 @@
 <img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
 </div>
 
-# Run and deploy your AI Studio app
+# Aura: Your Confidential AI Companion
 
-This contains everything you need to run your app locally.
+Aura is a web-based, AI-powered mental wellness companion designed for Indian youth. It provides a confidential space using multi-modal technology to offer empathetic, personalized mental wellness support.
 
-View your app in AI Studio: https://ai.studio/apps/temp/1
+## ✨ Features
 
-## Run Locally
+### 🎭 **Real-time Emotion Detection**
+- Live facial emotion recognition using Face-API.js
+- Detects 7 emotions: neutral, happy, sad, angry, surprised, disgusted, fearful
+- Contextual responses based on detected emotions
 
-**Prerequisites:**  Node.js
+### 🗣️ **Voice Interaction**
+- Text-to-speech responses from Aura
+- Natural conversation flow with voice feedback
+- Accessibility-friendly audio interface
 
+### 💬 **AI-Powered Chat**
+- Powered by Google's Gemini AI
+- Empathetic, non-judgmental responses
+- Specialized prompts for mental wellness support
+- Crisis intervention with helpline information
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 🧘 **Wellness Tools**
+- **Breathing Exercises**: Guided breathing sessions for relaxation
+- **Positive Affirmations**: AI-generated personalized affirmations
+- Quick access wellness toolkit
+
+### 🔒 **Privacy & Safety**
+- Confidential conversations
+- No data storage or tracking
+- Built-in crisis support resources
+- Clear privacy disclaimers
+
+## 🚀 Getting Started
+
+**Prerequisites:** Node.js (v18 or higher)
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Set up environment:**
+   Create `.env.local` and add your Gemini API key:
+   ```
+   GEMINI_API_KEY=your_api_key_here
+   ```
+
+3. **Run the application:**
+   ```bash
+   npm run dev
+   ```
+
+4. **Grant camera permissions** when prompted for emotion detection
+
+## 🛠️ Technology Stack
+
+- **Frontend**: React 19, TypeScript, Vite
+- **AI**: Google Gemini API
+- **Emotion Detection**: Face-API.js
+- **Speech**: Web Speech API
+- **Styling**: Tailwind CSS
+
+## 🎯 Target Audience
+
+Designed specifically for Indian youth seeking:
+- Mental wellness support
+- Confidential space to express feelings
+- Accessible mental health resources
+- Crisis intervention guidance
